@@ -1,0 +1,16 @@
+Package: testgenthat
+Title: Artificial package used to demonstrate genthat functionality and usage.
+Version: 0.0.0.9000
+Authors@R: person("Petr", "Maj", email = "peta.maj82@gmail.com", role = c("aut", "cre"))
+Description: Defines few functions, tests, examples and vignettes that can be used to generate regressions with genthat package. For more information see the documentation for genthat.
+Depends:
+    R (>= 3.2.2)
+License: MIT
+LazyData: true
+Suggests:
+    knitr,
+    rmarkdown,
+    testthat,
+    genthat
+VignetteBuilder: knitr
+RoxygenNote: 5.0.1

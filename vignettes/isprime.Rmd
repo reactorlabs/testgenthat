@@ -1,0 +1,30 @@
+---
+title: "Prime Numbers"
+author: "Petr Maj"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+## Prime numbers
+
+First, the package has to be included:
+
+```{r}
+library(testgenthat)
+```
+
+Then you can ask the isPrime function whether a given number is prime, or not. Such as:
+
+```{r}
+isPrime(10)
+```
+
+The above should return `F` because 10 is divisible by 2 and 5. On the other hand 211 should be a prime number:
+
+```{r}
+isPrime(211)
+```
